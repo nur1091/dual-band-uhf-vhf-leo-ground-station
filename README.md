@@ -13,6 +13,14 @@ The repository distinguishes between:
 - A 137.9125 MHz analog VHF reference downlink.
 - A wider dual-band architecture for mission-dependent uplink and downlink operations.
 
+## Project objectives
+
+- Design a modular ground-station concept for VHF/UHF LEO satellite missions.
+- Determine satellite access windows and antenna-pointing requirements from TLE data.
+- Evaluate VHF downlink feasibility through received-power, noise and Doppler analysis.
+- Define band-compatible RF signal chains for receive and packet-radio transmit operations.
+- Produce a transparent and reproducible analysis workflow independent of a proprietary STK licence.
+
 ## Engineering scope
 
 - Historical TLE selection and SGP4 propagation
@@ -137,12 +145,28 @@ The MATLAB script independently recomputes FSPL, received power, system noise, C
 > creation of the `results` folder and separates the script from its CSV input.
 > See [MATLAB Quick Start](docs/matlab_quick_start.md) for exact steps.
 
+## Key engineering decisions
+
+- Separated archived STK visual evidence from the reproducible numerical baseline.
+- Limited SGP4 propagation to the TLE epoch day to reduce long-horizon propagation uncertainty.
+- Used a 0° mask for geometric visibility and a 10° mask for the preferred communication window.
+- Derived receiver noise from antenna temperature, LNA noise figure and receiver bandwidth.
+- Automated regeneration and validation of orbital geometry, RF metrics and figures.
+
 ## Verification boundary
 
 - NOAA-18 is used only within its operational period; it was decommissioned on 6 June 2025.
 - NOAA APT is analog, so the reference model reports C/N rather than BER or a digital Eb/No requirement.
 - RF values are calculated from documented assumptions and have not been validated by on-air measurement.
 - A physical implementation requires surveyed antenna coordinates, measured cable/filter losses and receiver characterization.
+- 
+## Future work
+
+- Validate antenna gain, cable loss and receiver noise through laboratory measurements.
+- Integrate closed-loop azimuth-elevation rotor control.
+- Perform on-air reception tests with an active LEO weather-satellite mission.
+- Add SDR-based APT decoding and automated image processing.
+- Extend the model with polarization, atmospheric and local-obstruction losses.
 
 ## Tools
 
