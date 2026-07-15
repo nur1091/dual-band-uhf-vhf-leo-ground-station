@@ -1,0 +1,39 @@
+{
+  "satellite": "NOAA 18",
+  "noradCatalogId": 28654,
+  "tleEpoch": "2025-01-10T03:17:10.617Z",
+  "scenarioStartUtc": "2025-01-10T00:00:00.000Z",
+  "scenarioStopUtc": "2025-01-11T00:00:00.000Z",
+  "groundStation": {
+    "name": "NEU Koycegiz Campus, Konya",
+    "latitudeDeg": 37.864722,
+    "longitudeDeg": 32.414722,
+    "altitudeKm": 1.011
+  },
+  "preferredElevationDeg": 10,
+  "rfAssumptions": {
+    "frequencyMHz": 137.9125,
+    "assumedSatelliteEirpDbw": 10,
+    "receiveAntennaGainDbi": 2.15,
+    "implementationLossDb": 2,
+    "lnaNoiseFigureDb": 2.9,
+    "antennaNoiseTemperatureK": 150,
+    "receiverBandwidthHz": 40000,
+    "systemNoiseTemperatureK": 425.4549339298331,
+    "noisePowerDbm": -126.29003161531203
+  },
+  "selectedPass": {
+    "passId": 2,
+    "aosUtc": "2025-01-10T08:55:15.000Z",
+    "losUtc": "2025-01-10T09:10:52.000Z",
+    "durationSeconds": 937,
+    "maxElevationDeg": 89.51684735886096,
+    "maxElevationTimeUtc": "2025-01-10T09:03:06.000Z",
+    "minRangeKm": 845.1909888086485,
+    "preferredStartUtc": "2025-01-10T08:57:37.000Z",
+    "preferredStopUtc": "2025-01-10T09:08:32.000Z",
+    "preferredDurationSeconds": 655,
+    "peakCnDb": 32.668862,
+    "maximumAbsoluteDopplerHz": 3061.146
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "dual-band-uhf-vhf-leo-ground-station",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproducible SGP4 pass analysis for a UHF/VHF LEO ground-station case study.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "generate": "node analysis/js/generate_pass_data.mjs",
+    "validate": "python analysis/python/validate_outputs.py"
+  },
+  "dependencies": {
+    "satellite.js": "7.0.1"
+  }
+}
