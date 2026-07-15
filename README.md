@@ -159,7 +159,7 @@ The MATLAB script independently recomputes FSPL, received power, system noise, C
 - NOAA APT is analog, so the reference model reports C/N rather than BER or a digital Eb/No requirement.
 - RF values are calculated from documented assumptions and have not been validated by on-air measurement.
 - A physical implementation requires surveyed antenna coordinates, measured cable/filter losses and receiver characterization.
-- 
+
 ## Future work
 
 - Validate antenna gain, cable loss and receiver noise through laboratory measurements.
