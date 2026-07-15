@@ -1,0 +1,21 @@
+# MATLAB temporary and generated files
+*.asv
+*.autosave
+*.m~
+*.mat
+*.mex*
+slprj/
+codegen/
+
+# Node dependencies
+node_modules/
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
