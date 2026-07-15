@@ -150,10 +150,8 @@ MATLAB, Systems Tool Kit (original concept model), SGP4, satellite.js, UHF/VHF R
 
 ## Author
 
-**Nisanur Kaygusuz**  
+**Nisanur Kayğusuz**  
 Aerospace Engineer  
-Necmettin Erbakan University, 2025-2026
+Necmettin Erbakan University, 2025  
 
-## Sources
-
-See [Data Sources](docs/data_sources.md) for the TLE archive, NOAA documentation and propagation-library references.
+[LinkedIn](https://www.linkedin.com/in/nisanur-kay%C4%9Fusuz-62569b1ba/) · [Email](mailto:nisanurkaygusuz0625@gmail.com)
