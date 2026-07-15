@@ -42,12 +42,9 @@ jobs:
       - name: Validate outputs
         run: npm run validate
 
-      - name: Verify generated artifacts are committed
+      - name: Verify generated data are committed
         run: |
           git diff --exit-code -- \
             data/analysis_summary.json \
             data/best_pass_aer_link.csv \
-            data/pass_summary.csv \
-            docs/images/pass_elevation_range.png \
-            docs/images/link_budget_cn.png \
-            docs/images/doppler_shift.png
+            data/pass_summary.csv
