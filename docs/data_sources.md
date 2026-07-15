@@ -2,11 +2,19 @@
 
 ## Orbital data
 
-The NOAA-18 TLE used in this repository was archived by the University of Wisconsin-Madison Antarctic Meteorological Research Center for 10 January 2025:
+The NOAA-18 TLE used in this repository was obtained from the University of
+Wisconsin–Madison Antarctic Meteorological Research Center archive for
+10 January 2025.
 
-- https://amrc.ssec.wisc.edu/data/view-data.php?action=view_text_file&product=ftp%2Farchive%2F2025%2F0110%2FNAV.2025.01.10.txt
+The original AMRC archive interface has since migrated to the new
+[AMRDC Data Repository](https://amrdcdata.ssec.wisc.edu/). To preserve
+reproducibility, the exact unmodified TLE used by the analysis is committed at
+[`data/noaa18_tle_2025-01-10.txt`](../data/noaa18_tle_2025-01-10.txt).
 
-The unmodified two-line element set is stored in `data/noaa18_tle_2025-01-10.txt`.
+- Original archive reference: `NAV.2025.01.10.txt`
+- NORAD catalog ID: `28654`
+- TLE epoch: `2025-01-10T03:17:10.617Z`
+- SHA-256: `35b3134a4008ed5c3480d08f7e12f8544eee86888f3d30edba5f9277ddea711b`
 
 ## Mission and RF information
 
