@@ -6,7 +6,7 @@ Simulation-supported ground-station architecture and reproducible performance an
 
 ## Overview
 
-This undergraduate graduation project develops a modular UHF/VHF ground-station concept covering orbital tracking, antenna pointing, receive-chain design and RF performance analysis. A legacy NOAA-18 pass is used as a historical VHF downlink reference case. The original STK concept has been rebuilt as a reproducible workflow using an operational-period TLE, transparent assumptions and source-controlled analysis files.
+This undergraduate capstone project develops a modular UHF/VHF ground-station concept covering orbital tracking, antenna pointing, receive-chain design and RF performance analysis. A legacy NOAA-18 pass is used as a historical VHF downlink reference case. The original STK concept has been rebuilt as a reproducible workflow using an operational-period TLE, transparent assumptions and source-controlled analysis files.
 
 The repository distinguishes between:
 
